@@ -6,7 +6,7 @@ workflows:
         name: iOS App
         environment:
             vars:
-                XCODE_WORKSPACE: "Runner"
+                XCODE_WORKSPACE: "webviewframe"
                 XCODE_SCHEME: "production"
             xcode: latest
             cocoapods: default
