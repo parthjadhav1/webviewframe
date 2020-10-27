@@ -6,7 +6,7 @@ workflows:
         name: iOS App
         environment:
             vars:
-                XCODE_WORKSPACE: "97C146ED1CF9000F007C117D"
+                XCODE_WORKSPACE: "myframe.xcworkspace"
                 XCODE_SCHEME: "production"
             xcode: latest
             cocoapods: default
